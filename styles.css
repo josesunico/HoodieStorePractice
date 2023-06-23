@@ -1,0 +1,100 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+   
+header {
+    background-color: #333333;
+    color: #e2e2e2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+   
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+   
+nav li {
+    margin: 0 10px;
+}
+   
+nav a {
+    color: #e2e2e2;
+    font-weight: bold;
+    text-decoration: none;
+}
+   
+.banner {
+    background-image: url(https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNTA2MTYwNzgvYzdhMzAwODIxZDAxMWU5MWE0M2ExYjg1YTM1MGE0MWEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoxMDIyLCJoZWlnaHQiOjMxMiwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0=);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+   
+.banner h2 {
+    font-size: 36px;
+    color: #e2e2e2;
+    margin-bottom: 20px;
+}
+   
+.button {
+    background-color: #00cc00;
+    color: #e2e2e2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+}
+   
+.hoodies-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: center;
+    background-color: #e2e2e2;
+}
+   
+.hoodie {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius:s 5px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+   
+.hoodie img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+   
+.hoodie h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+   
+.price {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+   
+footer {
+    background-color: #333333;
+    color: #e2e2e2;
+    padding: 20px;
+    text-align: center;
+}
