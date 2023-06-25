@@ -2,15 +2,20 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    font-size: 1em;
 }
    
 header {
     background-color: #333333;
     color: #e2e2e2;
-    padding: 20px;
+    padding: 1.2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+h1 {
+    font-size: 1.5rem;
 }
    
 nav ul {
@@ -21,7 +26,7 @@ nav ul {
 }
    
 nav li {
-    margin: 0 10px;
+    margin: 0 0.6rem;
 }
    
 nav a {
@@ -31,46 +36,48 @@ nav a {
 }
    
 .banner {
+    height: 10rem;
     background-image: url(https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNTA2MTYwNzgvYzdhMzAwODIxZDAxMWU5MWE0M2ExYjg1YTM1MGE0MWEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoxMDIyLCJoZWlnaHQiOjMxMiwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0=);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    padding: 50px;
+    padding: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
    
 .banner h2 {
-    font-size: 36px;
+    font-size: 2.2rem;
+    font-weight: bold;
     color: #e2e2e2;
-    margin-bottom: 20px;
+    margin-bottom: 1.2rem;
 }
    
 .button {
     background-color: #00cc00;
     color: #e2e2e2;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.3rem;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 1.2rem;
 }
    
 .hoodies-container {
     display: flex;
     flex-wrap: wrap;
-    padding: 50px;
+    padding: 3rem;
     justify-content: center;
     background-color: #e2e2e2;
 }
    
 .hoodie {
     background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    border-radius:s 5px;
-    padding: 20px;
-    margin: 20px;
+    box-shadow: 0 0 0.6rem rgba(0,0,0,0.1);
+    border-radius:s 0.3rem;
+    padding: 1.2rem;
+    margin: 1.2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,22 +86,94 @@ nav a {
 .hoodie img {
     width: 100%;
     max-width: 300px;
-    margin-bottom: 20px;
+    margin-bottom: 1.2rem;
 }
    
 .hoodie h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 1.4rem;
+    margin-bottom: 0.6rem;
 }
    
 .price {
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
 }
    
 footer {
     background-color: #333333;
     color: #e2e2e2;
-    padding: 20px;
+    padding: 1.2rem;
     text-align: center;
 }
+
+/*for smartphones*/
+@media only screen and (max-width: 921px) {
+    header a {
+        font-size: 65%;
+    }
+    header h1 {
+        font-size: 80%;
+    }
+    .banner {
+        height: 6rem;
+    }
+    .banner h2, .banner a {
+        font-size: 75%;
+    }
+    .hoodie h3 {
+        font-size: 71%;
+    }
+    .price {
+        font-size: 90%;
+    }
+    .button, footer {
+        font-size: 65%;
+    }
+  }
+
+  /*for medium screens*/
+  @media only screen and (min-width: 922px) {
+    header a {
+        font-size: 70%;
+    }
+    header h1 {
+        font-size: 85%;
+    }
+    .banner {
+        height: 7.5rem;
+    }
+    .banner h2, .banner a {
+        font-size: 80%;
+    }
+    .hoodie h3 {
+        font-size: 75%;
+    }
+    .price {
+        font-size: 95%;
+    }
+    .button, footer {
+        font-size: 70%;
+    }
+  }
+
+/*for desktops*/
+@media only screen and (min-width: 1200px) {
+    header a {
+        font-size: 100%;
+    }
+    header h1 {
+        font-size: 100%;
+    }
+    .banner h2, .banner a {
+        font-size: 100%;
+    }
+    .hoodie h3 {
+        font-size: 100%;
+    }
+    .price {
+        font-size: 100%;
+    }
+    .button, footer {
+        font-size: 100%;
+    }
+  }
