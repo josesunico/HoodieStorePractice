@@ -75,7 +75,7 @@ nav a {
 .hoodie {
     background-color: #ffffff;
     box-shadow: 0 0 0.6rem rgba(0,0,0,0.1);
-    border-radius:s 0.3rem;
+    border-radius: 0.3rem;
     padding: 1.2rem;
     margin: 1.2rem;
     display: flex;
@@ -120,7 +120,12 @@ footer {
     .banner h2, .banner a {
         font-size: 75%;
     }
-    .hoodie h3 {
+    .hoodie img {
+        width: 85%;
+        max-width: 200px;
+        margin-bottom: 3.5rem;
+    }
+    .hoodie h3, .hoodie p {
         font-size: 71%;
     }
     .price {
@@ -129,6 +134,7 @@ footer {
     .button, footer {
         font-size: 65%;
     }
+
   }
 
   /*for medium screens*/
@@ -145,7 +151,12 @@ footer {
     .banner h2, .banner a {
         font-size: 80%;
     }
-    .hoodie h3 {
+    .hoodie img {
+        width: 85%;
+        max-width: 200px;
+        margin-bottom: 1.2rem;
+    }
+    .hoodie h3, .hoodie p {
         font-size: 75%;
     }
     .price {
@@ -167,7 +178,12 @@ footer {
     .banner h2, .banner a {
         font-size: 100%;
     }
-    .hoodie h3 {
+    .hoodie img {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 1.2rem;
+    }
+    .hoodie h3, .hoodie p {
         font-size: 100%;
     }
     .price {
