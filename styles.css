@@ -120,10 +120,13 @@ footer {
     .banner h2, .banner a {
         font-size: 75%;
     }
+    .hoodies-container {
+        display: block;
+        padding: 3rem 10rem;
+    }
     .hoodie img {
         width: 85%;
         max-width: 200px;
-        margin-bottom: 3.5rem;
     }
     .hoodie h3, .hoodie p {
         font-size: 71%;
@@ -134,7 +137,6 @@ footer {
     .button, footer {
         font-size: 65%;
     }
-
   }
 
   /*for medium screens*/
@@ -151,9 +153,13 @@ footer {
     .banner h2, .banner a {
         font-size: 80%;
     }
+    .hoodies-container {
+        display: block;
+        padding: 3rem 15rem;
+    }
     .hoodie img {
-        width: 85%;
-        max-width: 200px;
+        width: 90%;
+        max-width: 250px;
         margin-bottom: 1.2rem;
     }
     .hoodie h3, .hoodie p {
@@ -177,6 +183,11 @@ footer {
     }
     .banner h2, .banner a {
         font-size: 100%;
+    }
+    .hoodies-container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 3rem;
     }
     .hoodie img {
         width: 100%;
